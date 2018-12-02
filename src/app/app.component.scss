@@ -1,0 +1,45 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background: black;
+
+  span {
+    color: white;
+  }
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+.gimme-space-left {
+    margin-left: 15px;
+}
+
+mat-sidenav-container {
+    background: pink;
+
+    mat-icon {
+        fill: white;
+        color: white;
+    }
+
+    mat-toolbar {
+        background: black;
+
+        span {
+            color:white;
+        }
+    }
+
+}

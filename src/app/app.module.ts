@@ -9,7 +9,6 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContestantsComponent } from './pages/contestants/contestants.component';
 import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SideNavComponent } from './side-nav/side-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
@@ -18,8 +17,7 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     AppComponent,
     HomePageComponent,
     ContestantsComponent,
-    ScoreboardComponent,
-    SideNavComponent
+    ScoreboardComponent
   ],
   imports: [
     BrowserModule,
