@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "name": "Amber",
+            "contestants": []
+        },
+        {
+            "name": "Patrick",
+            "contestants": []
+        }
+    ],
+    "contestants": [
+        {
+            "name": "Kerpa",
+            "occupation": "Dental Hygienist",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c0991027ffbfd666e00f2b4/master/w_400,c_limit/150167_0054.jpg"
+        },
+        {
+            "name": "Caelynn",
+            "occupation": "Miss North Carolina 2018",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09910d53eade2d5f6c4d91/master/w_400,c_limit/150167_0085c1.jpg"
+        },
+        {
+            "name": "Onyeka",
+            "occupation": "IT Risk Consultant",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09911d7b7c4c2d6cf30745/master/w_400,c_limit/150167_0214.jpg"
+        },
+        {
+            "name": "Demi",
+            "occupation": "Interior Designed",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09911652bd185ffa1a48be/master/w_400,c_limit/150167_0176.jpg"
+        },
+        {
+            "name": "Tracy",
+            "occupation": "Wardrobe Specialist",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c099124ef620b2d572bbf97/master/w_400,c_limit/150167_0303.jpg"
+        },
+        {
+            "name": "Catherine",
+            "occupation": "DJ",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09912cef620b2d572bbf99/master/w_400,c_limit/150167_0485.jpg"
+        },
+        {
+            "name": "Taysha",
+            "occupation": "Phlebotonist",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c0991249cecff2dd7e827fc/master/w_400,c_limit/150167_0386.jpg"
+        },
+        {
+            "name": "Bri",
+            "occupation": "Model",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c0991437b7c4c2d6cf30747/master/w_400,c_limit/150167_0588.jpg"
+        },
+        {
+            "name": "Adrianne (Jane)",
+            "occupation": "Social Worker",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09914a52bd185ffa1a48c0/master/w_400,c_limit/150167_0584.jpg"
+        },
+        {
+            "name": "Nina",
+            "occupation": "Sales Account Manager",
+            "isDumped": false,
+            "imageUrl": "https://media.glamour.com/photos/5c09914b7b7c4c2d6cf30749/master/w_400,c_limit/150167_0680.jpg"
+        }
+    ]
+}

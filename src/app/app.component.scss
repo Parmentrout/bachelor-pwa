@@ -27,7 +27,7 @@
 }
 
 mat-sidenav-container {
-    background: pink;
+    background: white;
 
     mat-icon {
         fill: white;
@@ -38,7 +38,23 @@ mat-sidenav-container {
         background: black;
 
         span {
-            color:white;
+            color:#9d9d9d;
+        }
+    }
+
+    mat-nav-list {
+       span {
+            color:#9d9d9d;
+        }
+
+        .router-link-active {
+          span {
+            color: white;
+          }
+        }
+
+        a:hover {
+          opacity: 0.7;
         }
     }
 
