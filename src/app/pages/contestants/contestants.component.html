@@ -1,4 +1,15 @@
-<p>
-  contestants works!
-</p>
+<div class="container">
+  <div class="text-center gimme-space-top">
+    <h2>The Contestants</h2>
 
+    <div *ngIf="(contestants$ | async) as contestants" class="gimme-space-top">
+
+      <div *ngFor="let contestant of contestants" class="gimme-space-top">
+        <h4>{{contestant.name}}</h4>
+        <button class="contestant-button" (click)="eliminateContestant(contestant)">
+          <img class="img-fluid contestant-image" [src]="contestant.imageUrl">
+        </button>
+      </div>
+    </div>
+
+    <!-- <div [innerHtml]="contestants$ | async | json"></div> -->
