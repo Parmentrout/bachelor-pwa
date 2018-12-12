@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BachelorService } from 'src/app/bachelor-service.service';
 import { Observable } from 'rxjs';
-import { Contestant } from 'src/app/models';
+import { Contestant, User } from 'src/app/models';
 
 @Component({
   selector: 'app-contestants',
@@ -10,16 +10,48 @@ import { Contestant } from 'src/app/models';
 })
 export class ContestantsComponent implements OnInit {
 
+  isLoaded: boolean = false;
+
   constructor(private _bachelorService: BachelorService) { }
 
-  contestants$: Observable<Contestant[]> = this._bachelorService.getContestants();
+  contestants: Contestant[];
+  users: User[];
 
   ngOnInit() {
+    this._bachelorService.getContestants().subscribe(contestants => {
+      this.contestants = contestants;
+      this.isLoaded = true;
+    });
 
+    this._bachelorService.getUsers().subscribe(users => this.users === users);
   }
 
-  eliminateContestant(contestant: Contestant) {
-    console.log(contestant);
+  saveChanges() {
+    this.isLoaded = false;
+    this._bachelorService.saveContestants(this.contestants).subscribe(result => {
+      this.contestants = result;
+      this.isLoaded = true;
+    });
+  }
+
+  toggleContestant(contestant: Contestant) {
+    contestant.isDumped = contestant.isDumped ? false : true;
+  }
+
+  saveToUser(user: string, contestant: Contestant) {
+
+    // TODO: test
+    if (user === "None") {
+      for (let u of this.users) {
+        const index = u.contestants.findIndex(i => i.name === contestant.name);
+        u.contestants.splice(index, 1);
+      }
+    } else {
+      let findUser = this.users.find(u => u.name === user);
+      findUser.contestants.push(contestant);
+    }
+
+    // Now save
   }
 
 }

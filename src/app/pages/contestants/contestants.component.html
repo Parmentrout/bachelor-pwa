@@ -2,14 +2,26 @@
   <div class="text-center gimme-space-top">
     <h2>The Contestants</h2>
 
-    <div *ngIf="(contestants$ | async) as contestants" class="gimme-space-top">
+    <div *ngIf="contestants && isLoaded; else spinner" class="gimme-space-top">
+      <button mat-raised-button color="primary" (click)="saveChanges()">Save Changes</button>
+      <button mat-raised-button class="gimme-space-left" (click)="toggleEliminatedContestants()">Toggle Eliminated
+        Contestants</button>
+
 
       <div *ngFor="let contestant of contestants" class="gimme-space-top">
-        <h4>{{contestant.name}}</h4>
-        <button class="contestant-button" (click)="eliminateContestant(contestant)">
+        <h4>{{contestant.name}} <span *ngIf="contestant.isDumped"> - Eliminated!</span></h4>
+        <div>{{contestant.occupation}}</div>
+        <button class="contestant-button" (click)="toggleContestant(contestant)">
           <img class="img-fluid contestant-image" [src]="contestant.imageUrl">
         </button>
+        <div class="button-row">
+          <button mat-raised-button class="gimme-space" (click)="saveToUser('Amber', contestant)">Amber</button>
+          <button mat-raised-button class="gimme-space" (click)="saveToUser('Patrick', contestant)">Patrick</button>
+          <button mat-raised-button class="gimme-space" (click)="saveToUser('None', contestant)">None</button>
+        </div>
       </div>
     </div>
-
+    <ng-template #spinner>
+      <mat-spinner class="spinner-center"></mat-spinner>
+    </ng-template>
     <!-- <div [innerHtml]="contestants$ | async | json"></div> -->
