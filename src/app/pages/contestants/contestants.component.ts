@@ -11,6 +11,7 @@ import { Contestant, User } from 'src/app/models';
 export class ContestantsComponent implements OnInit {
 
   isLoaded: boolean = false;
+  showEliminatedContestants: boolean = true;
 
   constructor(private _bachelorService: BachelorService) { }
 
@@ -52,6 +53,10 @@ export class ContestantsComponent implements OnInit {
     }
 
     // Now save
+  }
+
+  toggleEliminatedContestants() {
+    this.showEliminatedContestants = this.showEliminatedContestants ? false : true;
   }
 
 }

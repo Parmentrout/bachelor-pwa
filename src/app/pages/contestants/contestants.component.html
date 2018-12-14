@@ -9,16 +9,18 @@
 
 
       <div *ngFor="let contestant of contestants" class="gimme-space-top">
-        <h4>{{contestant.name}} <span *ngIf="contestant.isDumped"> - Eliminated!</span></h4>
-        <div>{{contestant.occupation}}</div>
-        <button class="contestant-button" (click)="toggleContestant(contestant)">
-          <img class="img-fluid contestant-image" [src]="contestant.imageUrl">
-        </button>
-        <div class="button-row">
-          <button mat-raised-button class="gimme-space" (click)="saveToUser('Amber', contestant)">Amber</button>
-          <button mat-raised-button class="gimme-space" (click)="saveToUser('Patrick', contestant)">Patrick</button>
-          <button mat-raised-button class="gimme-space" (click)="saveToUser('None', contestant)">None</button>
-        </div>
+        <ng-container *ngIf="showEliminatedContestants || !contestant.isDumped">
+          <h4>{{contestant.name}} <span class="red-text" *ngIf="contestant.isDumped"> - Eliminated!</span></h4>
+          <div>{{contestant.occupation}}</div>
+          <button class="contestant-button" (click)="toggleContestant(contestant)">
+            <img class="img-fluid contestant-image" [style.opacity]="contestant.isDumped ? '0.7' : '1.0'" [src]="contestant.imageUrl">
+          </button>
+          <div class="button-row">
+            <button mat-raised-button class="gimme-space" (click)="saveToUser('Amber', contestant)">Amber</button>
+            <button mat-raised-button class="gimme-space" (click)="saveToUser('Patrick', contestant)">Patrick</button>
+            <button mat-raised-button class="gimme-space" (click)="saveToUser('None', contestant)">None</button>
+          </div>
+        </ng-container>
       </div>
     </div>
     <ng-template #spinner>
