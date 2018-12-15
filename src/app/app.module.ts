@@ -12,13 +12,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatProgressSpinnerModule } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
+import { FantasyComponent } from './pages/fantasy/fantasy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     ContestantsComponent,
-    ScoreboardComponent
+    ScoreboardComponent,
+    FantasyComponent
   ],
   imports: [
     BrowserModule,

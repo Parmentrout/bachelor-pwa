@@ -3,14 +3,18 @@ export class Contestant {
     occupation: string;
     isDumped: boolean;
     imageUrl: string;
+    selectedBy: string;
 }
 
-export class User {
-    name: string;
-    contestants: Contestant[];
+export class Season {
+    season: string;
+    winner: string;
+    nextBach: string;
+    pickedWinner: string;
+    pickedBach: string;
 }
 
 export class BachelorResponse {
     contestants: Contestant[];
-    users: User[];
+    scoreboard: Season[];
 }

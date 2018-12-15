@@ -1,30 +1,36 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { BachelorService } from 'src/app/bachelor-service.service';
-import { Observable } from 'rxjs';
-import { Contestant, User } from 'src/app/models';
+import { Observable, Subject } from 'rxjs';
+import { Contestant } from 'src/app/models';
+import { takeUntil } from 'rxjs/operators';
+import { container } from '@angular/core/src/render3';
 
 @Component({
   selector: 'app-contestants',
   templateUrl: './contestants.component.html',
   styleUrls: ['./contestants.component.scss']
 })
-export class ContestantsComponent implements OnInit {
+export class ContestantsComponent implements OnInit, OnDestroy {
 
   isLoaded: boolean = false;
   showEliminatedContestants: boolean = true;
 
+  private _cancellationToken: Subject<any> = new Subject();
+
   constructor(private _bachelorService: BachelorService) { }
 
   contestants: Contestant[];
-  users: User[];
 
   ngOnInit() {
-    this._bachelorService.getContestants().subscribe(contestants => {
+    this._bachelorService.getContestants().pipe(takeUntil(this._cancellationToken)).subscribe(contestants => {
       this.contestants = contestants;
       this.isLoaded = true;
     });
+  }
 
-    this._bachelorService.getUsers().subscribe(users => this.users === users);
+  ngOnDestroy(): void {
+    this._cancellationToken.next();
+    this._cancellationToken.complete();
   }
 
   saveChanges() {
@@ -37,22 +43,19 @@ export class ContestantsComponent implements OnInit {
 
   toggleContestant(contestant: Contestant) {
     contestant.isDumped = contestant.isDumped ? false : true;
+
+    this.saveChanges();
   }
 
   saveToUser(user: string, contestant: Contestant) {
 
-    // TODO: test
     if (user === "None") {
-      for (let u of this.users) {
-        const index = u.contestants.findIndex(i => i.name === contestant.name);
-        u.contestants.splice(index, 1);
-      }
+      contestant.selectedBy = '';
     } else {
-      let findUser = this.users.find(u => u.name === user);
-      findUser.contestants.push(contestant);
+      contestant.selectedBy = user;
     }
 
-    // Now save
+    this.saveChanges();
   }
 
   toggleEliminatedContestants() {
