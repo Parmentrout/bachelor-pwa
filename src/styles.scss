@@ -10,3 +10,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .gimme-space-top {
     margin-top: 30px;
 }
+
+.spinner-center {
+    margin: auto;
+}
+
+.button-row {
+    .gimme-space {
+        margin: 5px;
+    }
+}

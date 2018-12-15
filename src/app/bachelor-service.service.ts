@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BachelorResponse, Contestant } from './models';
+import { BachelorResponse, Contestant, Season } from './models';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class BachelorService {
     private readonly contestantUrl: string = 'https://bachelor-pwa.firebaseio.com/contestants.json';
-    private readonly userUrl: string = 'https://bachelor-pwa.firebaseio.com/users.json'
+    private readonly scoreBoardUrl: string = 'https://bachelor-pwa.firebaseio.com/scoreboard.json'
 
 
     constructor(private httpClient: HttpClient) { }
@@ -18,6 +18,10 @@ export class BachelorService {
 
     saveContestants(contestants: Contestant[]): Observable<Contestant[]> {
         return this.httpClient.put(this.contestantUrl, contestants).pipe(map(results => results as Contestant[]));
+    }
+
+    getScoreboard(): Observable<Season[]> {
+        return this.httpClient.get(this.scoreBoardUrl).pipe(map(result => result as Season[]));
     }
 
     // curl 'https://bachelor-pwa.firebaseio.com/contestants'

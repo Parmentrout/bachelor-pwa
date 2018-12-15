@@ -5,5 +5,19 @@
 
         <img class="img img-fluid gimme-space-top" src="https://casting.bachelor.warnerbros.com/images/the_bachelor_casting_header.jpg">
 
+        <div class="button-row gimme-space-top">
+            <button class="gimme-space" mat-raised-button (click)="goToPage('contestants')">
+                <mat-icon>local_bar</mat-icon> <span> Contestants</span>
+            </button>
+
+            <button class="gimme-space" mat-raised-button (click)="goToPage('fantasy')">
+                <mat-icon>favorite</mat-icon> <span> Fantasy</span>
+            </button>
+
+            <button class="gimme-space" mat-raised-button (click)="goToPage('scoreboard')">
+                <mat-icon>insert_chart</mat-icon> <span> Scoreboard</span>
+            </button>
+        </div>
+
     </div>
 </div>
