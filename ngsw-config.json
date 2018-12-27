@@ -2,7 +2,7 @@
   "index": "/index.html",
   "assetGroups": [
     {
-      "name": "app",
+      "name": "bachelor application",
       "installMode": "prefetch",
       "resources": {
         "files": [
@@ -20,6 +20,21 @@
         "files": [
           "/assets/**"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "urls": [
+        "https://bachelor-pwa.firebaseio.com/**"
+      ],
+      "version": "1.0",
+      "cacheConfig": {
+        "maxSize": 100000,
+        "maxAge": "100d",
+        "timeout": "2s",
+        "strategy": "performance"
       }
     }
   ]
