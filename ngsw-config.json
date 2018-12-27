@@ -27,7 +27,8 @@
     {
       "name": "api",
       "urls": [
-        "https://bachelor-pwa.firebaseio.com/**"
+        "https://bachelor-pwa.firebaseio.com/**",
+        "https://media.glamour.com/photos/**"
       ],
       "version": "1.0",
       "cacheConfig": {
