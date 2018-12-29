@@ -25,17 +25,29 @@
   ],
   "dataGroups": [
     {
-      "name": "api",
+      "name": "scoreboard-api",
       "urls": [
-        "https://bachelor-pwa.firebaseio.com/**",
-        "https://media.glamour.com/photos/**"
+        "https://bachelor-pwa.firebaseio.com/scoreboard.json"
       ],
       "version": "1.0",
       "cacheConfig": {
-        "maxSize": 100000,
-        "maxAge": "100d",
-        "timeout": "2s",
+        "maxSize": 100,
+        "maxAge": "60d",
+        "timeout": "10s",
         "strategy": "performance"
+      }
+    },
+    {
+      "name": "contestants-api",
+      "urls": [
+        "https://bachelor-pwa.firebaseio.com/contestants.json"
+      ],
+      "version": "1.0",
+      "cacheConfig": {
+        "maxSize": 1,
+        "maxAge": "7d",
+        "timeout": "2s",
+        "strategy": "freshness"
       }
     }
   ]
