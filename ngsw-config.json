@@ -25,6 +25,18 @@
   ],
   "dataGroups": [
     {
+      "name": "app-fonts-icons",
+      "urls": [
+        "https://fonts.googleapis.com/**"
+      ],
+      "version": "1.0",
+      "cacheConfig": {
+        "maxSize": 1,
+        "maxAge": "120d",
+        "strategy": "performance"
+      }
+    },
+    {
       "name": "scoreboard-api",
       "urls": [
         "https://bachelor-pwa.firebaseio.com/scoreboard.json"
