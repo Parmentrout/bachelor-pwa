@@ -16,11 +16,11 @@ export class AppComponent {
 
     // Check for available updates
     swUpdate.available.subscribe(event => 
-      this.openSnackBar('Updates are available, would you like to refresh?', 'Update'));
+      this.openSnackBar(`Updates are available version: ${event.available}`, 'Update'));
 
     // Check if updates have been applied
     swUpdate.activated.subscribe(event => {
-      this.openSnackBar('Bachelor Tracker Updated');
+      this.openSnackBar(`Bachelor Tracker Updated: ${event.current}`);
     })
 
   }
