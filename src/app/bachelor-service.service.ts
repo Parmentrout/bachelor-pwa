@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { BachelorResponse, Contestant, Season } from './models';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import _ from 'lodash';
 
 @Injectable({ providedIn: 'root' })
 export class BachelorService {
@@ -13,7 +14,12 @@ export class BachelorService {
     constructor(private httpClient: HttpClient) { }
 
     getContestants(): Observable<Contestant[]> {
-        return this.httpClient.get(this.contestantUrl).pipe(map(result => result as Contestant[]));
+        return this.httpClient.get(this.contestantUrl).pipe(map(result => {
+            let results = result as Contestant[];
+            let sortedResults = _.sortBy(results, r => r.name);
+
+            return sortedResults;
+        }));
     }
 
     saveContestants(contestants: Contestant[]): Observable<Contestant[]> {

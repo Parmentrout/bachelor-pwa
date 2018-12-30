@@ -10,7 +10,7 @@ import { ContestantsComponent } from './pages/contestants/contestants.component'
 import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatProgressSpinnerModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatProgressSpinnerModule, MatSnackBarModule } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 import { FantasyComponent } from './pages/fantasy/fantasy.component';
 
@@ -31,6 +31,7 @@ import { FantasyComponent } from './pages/fantasy/fantasy.component';
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatSnackBarModule,
     MatSidenavModule,
     MatIconModule,
     MatProgressSpinnerModule,
