@@ -30,7 +30,8 @@ export class AppComponent implements AfterViewInit {
   }
 
   private subscribeToUpdates() {
-    // Check for available updates
+
+    // Check for available updates with swUpdate service
     this.swUpdate.available.subscribe(event => {
       console.log('current version is', event.current);
       console.log('available version is', event.available);
