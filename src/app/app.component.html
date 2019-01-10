@@ -22,7 +22,7 @@
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
             <span><a class="text-white" routerLink="home">Bachelor Tracker</a></span>
-            <button type="button" mat-icon-button (click)="updatePage()">
+            <button *ngIf="hasUpdates" type="button" mat-icon-button (click)="updatePage()">
                 <mat-icon aria-label="Update button">loop</mat-icon>
             </button>
         </mat-toolbar>

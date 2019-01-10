@@ -41,7 +41,9 @@ export class AppComponent implements AfterViewInit {
     // Check if updates have been applied
     this.swUpdate.activated.subscribe(event => {
       console.log('old version was', event.previous);
-      console.log('new version is', event.current);;
+      console.log('new version is', event.current);
+
+      this.hasUpdates = false;
     });
   }
 
