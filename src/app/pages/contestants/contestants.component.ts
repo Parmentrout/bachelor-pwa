@@ -14,12 +14,11 @@ export class ContestantsComponent implements OnInit, OnDestroy {
 
   isLoaded: boolean = false;
   showEliminatedContestants: boolean = true;
+  contestants: Contestant[];
 
   private _cancellationToken: Subject<any> = new Subject();
 
   constructor(private _bachelorService: BachelorService) { }
-
-  contestants: Contestant[];
 
   ngOnInit() {
     this._bachelorService.getContestants().pipe(takeUntil(this._cancellationToken)).subscribe(contestants => {

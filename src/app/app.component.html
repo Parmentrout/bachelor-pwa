@@ -21,11 +21,11 @@
             <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
-            <span><a class="text-white" routerLink="home">Bachelor PWA</a></span>
+            <span><a class="text-white" routerLink="home">Bachelor Tracker</a></span>
+            <button type="button" mat-icon-button (click)="updatePage()">
+                <mat-icon aria-label="Update button">loop</mat-icon>
+            </button>
         </mat-toolbar>
-        <!-- Add Content Here -->
-        <!-- <button (click)="openSnackBar('Testing', 'Action')">Test Snackbar</button> -->
         <router-outlet></router-outlet>
-
     </mat-sidenav-content>
 </mat-sidenav-container>

@@ -12,9 +12,11 @@ import { SnackBarListenerService } from './snackbar.service';
 })
 export class AppComponent implements AfterViewInit {
 
+  public hasUpdates: boolean = false;
+
   private readonly vapidKey = "BN_IR7AHynzjzbh3nR3-yQFgnMjHRfndMDrXDFXLZAAWPCT1tMPdVcrL4RRSodK37CMT6gbaYjU8LQ0ExQL6oTM";
 
-  constructor(private snackBar: MatSnackBar, private swUpdate: SwUpdate, private swPush: SwPush) {
+  constructor(private swUpdate: SwUpdate, private swPush: SwPush) {
 
     this.subscribeToUpdates();
   }
@@ -23,35 +25,33 @@ export class AppComponent implements AfterViewInit {
     this.subscribeToPushNotifications();
   }
 
-  openSnackBar(message: string, action: string = null) {
-    if (action) {
-      this.snackBar.open(message, action, {
-        duration: 2000,
-      });
-    } else {
-      this.snackBar.open(message);
-    }
-   
+  updatePage() {
+    window.location.reload();
   }
 
   private subscribeToUpdates() {
-      // Check for available updates
-      this.swUpdate.available.subscribe(event => 
-      this.openSnackBar(`Updates are available version: ${event.available}`, 'Update'));
+    // Check for available updates
+    this.swUpdate.available.subscribe(event => {
+      console.log('current version is', event.current);
+      console.log('available version is', event.available);
 
-      // Check if updates have been applied
-      this.swUpdate.activated.subscribe(event => {
-      this.openSnackBar(`Bachelor Tracker Updated: ${event.current}`);
+      this.hasUpdates = true;
+    });
+
+    // Check if updates have been applied
+    this.swUpdate.activated.subscribe(event => {
+      console.log('old version was', event.previous);
+      console.log('new version is', event.current);;
     });
   }
 
   private subscribeToPushNotifications() {
-   
+
     this.swPush.requestSubscription({
       serverPublicKey: this.vapidKey
     })
-    .then(result => console.log('User successfully subscribed to notifications')) // Returns a user specific key that in turn you'll send with other notifications
-    .catch(error => console.log('User said no'));
+      .then(result => console.log('User successfully subscribed to notifications')) // Returns a user specific key that in turn you'll send with other notifications
+      .catch(error => console.log('User said no'));
 
     this.swPush.messages.subscribe(message => console.log(`Message received: ${message}`));
   }
