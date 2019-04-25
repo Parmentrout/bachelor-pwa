@@ -7,7 +7,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContestantsComponent } from './pages/contestants/contestants.component';
-import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatProgressSpinnerModule, MatSnackBarModule } from '@angular/material';
@@ -19,7 +18,6 @@ import { FantasyComponent } from './pages/fantasy/fantasy.component';
     AppComponent,
     HomePageComponent,
     ContestantsComponent,
-    ScoreboardComponent,
     FantasyComponent
   ],
   imports: [

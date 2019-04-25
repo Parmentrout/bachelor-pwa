@@ -1,41 +1,50 @@
 <div class="container">
   <div class="text-center">
-  <div class="text-center gimme-space-top">
-    <h1>Fantasy Bachelor</h1>
-    <p>Winner picks drinks for the next premier</p>
-    <hr>
-  </div>
+    <div class="text-center gimme-space-top">
+      <h1>Deadpool Picks</h1>
+      <hr />
+    </div>
 
-  <div *ngIf="isLoaded; else spinner" class="gimme-space-top">
-    <h2> Amber's Picks </h2>
+    <div *ngIf="isLoaded; else spinner" class="gimme-space-top">
+      <h2>Amber's Picks</h2>
 
-    <ng-container *ngIf="amberContestants && amberContestants.length > 0">
-      <ng-container *ngFor="let amberContestant of amberContestants">
-        <h4 class="gimme-space-top">{{amberContestant.name}} <span class="red-text" *ngIf="amberContestant.isDumped"> - Eliminated!</span></h4>
-        <div>{{amberContestant.occupation}}</div>
-        <img class="img-fluid contestant-image" [style.opacity]="amberContestant.isDumped ? '0.7' : '1.0'" [src]="amberContestant.imageUrl">
+      <ng-container *ngIf="amberContestants && amberContestants.length > 0">
+        <ng-container *ngFor="let amberContestant of amberContestants">
+          <h4 class="gimme-space-top">
+            {{ amberContestant.name }} <span class="red-text" *ngIf="amberContestant.isDumped"> - Eliminated!</span>
+          </h4>
+          <div>{{ amberContestant.occupation }}</div>
+          <img
+            class="img-fluid contestant-image"
+            [style.opacity]="amberContestant.isDumped ? '0.7' : '1.0'"
+            [src]="amberContestant.imageUrl"
+          />
+        </ng-container>
       </ng-container>
-    </ng-container>
-  </div>
+    </div>
 
-  <hr>
+    <hr />
 
-  <div *ngIf="isLoaded; else spinner" class="gimme-space-top">
-    <h2> Patrick's Picks </h2>
+    <div *ngIf="isLoaded; else spinner" class="gimme-space-top">
+      <h2>Patrick's Picks</h2>
 
-    <ng-container *ngIf="patrickContestants && patrickContestants.length > 0">
-      <ng-container *ngFor="let patrickContestant of patrickContestants">
-        <h4 class="gimme-space-top">{{patrickContestant.name}} <span class="red-text" *ngIf="patrickContestant.isDumped"> - Eliminated!</span></h4>
-        <div>{{patrickContestant.occupation}}</div>
-        <img class="img-fluid contestant-image" [style.opacity]="patrickContestant.isDumped ? '0.7' : '1.0'" [src]="patrickContestant.imageUrl">
+      <ng-container *ngIf="patrickContestants && patrickContestants.length > 0">
+        <ng-container *ngFor="let patrickContestant of patrickContestants">
+          <h4 class="gimme-space-top">
+            {{ patrickContestant.name }} <span class="red-text" *ngIf="patrickContestant.isDumped"> - Eliminated!</span>
+          </h4>
+          <div>{{ patrickContestant.occupation }}</div>
+          <img
+            class="img-fluid contestant-image"
+            [style.opacity]="patrickContestant.isDumped ? '0.7' : '1.0'"
+            [src]="patrickContestant.imageUrl"
+          />
+        </ng-container>
       </ng-container>
-    </ng-container>
+    </div>
+
+    <ng-template #spinner>
+      <mat-spinner class="spinner-center"></mat-spinner>
+    </ng-template>
   </div>
-
-
-  <ng-template #spinner>
-    <mat-spinner class="spinner-center"></mat-spinner>
-  </ng-template>
-
-</div>
 </div>

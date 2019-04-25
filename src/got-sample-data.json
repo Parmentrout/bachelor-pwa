@@ -1,0 +1,216 @@
+{
+  "scoreboard": [
+    {
+      "season": "Kaitlin",
+      "winner": "Ryan Gosling",
+      "nextBach": "Ben Higgins",
+      "pickedWinner": "Amber",
+      "pickedBach": "Patrick"
+    },
+    {
+      "season": "Ben Higgins",
+      "winner": "Lauren B",
+      "nextBach": "Jojo",
+      "pickedWinner": "",
+      "pickedBach": "Amber"
+    },
+    {
+      "season": "Jojo",
+      "winner": "Aaron Rodger's Brother",
+      "nextBach": "Nick Vialle",
+      "pickedWinner": "Amber",
+      "pickedBach": ""
+    },
+    {
+      "season": "Nick Vialle",
+      "winner": "Vanessa",
+      "nextBach": "Rachel",
+      "pickedWinner": "Patrick",
+      "pickedBach": ""
+    },
+    {
+      "season": "Rachel",
+      "winner": "Bryan",
+      "nextBach": "Arie",
+      "pickedWinner": "Amber",
+      "pickedBach": ""
+    },
+    {
+      "season": "Arie",
+      "winner": "Lauren B",
+      "nextBach": "Becca",
+      "pickedWinner": "",
+      "pickedBach": ""
+    },
+    {
+      "season": "Becca",
+      "winner": "Garrett",
+      "nextBach": "Colton",
+      "pickedWinner": "Amber",
+      "pickedBach": "Patrick"
+    }
+  ],
+  "contestants": [
+    {
+      "name": "John Snow",
+      "occupation": "Moody",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "occupation": "Hot-headed and impulsive",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Tyrion Lannister",
+      "occupation": "Drunk",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Jaime Lannister",
+      "occupation": "One armed man",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Cersei Lannister",
+      "occupation": "Drunk and mean",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Samwell Tarly",
+      "occupation": "What's not to love!?",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Arya Stark",
+      "occupation": "I'm gonna be a wreck if she dies",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Sansa Stark",
+      "occupation": "Smarter than Tyrion",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Bran Stark",
+      "occupation": "One eyed raven",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Theon Greyjoy",
+      "occupation": "Definitely gonna die",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Ghost",
+      "occupation": "A good boy",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Drogon",
+      "occupation": "Not an ice dragon",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Rhaegal",
+      "occupation": "Not an ice dragon",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Davos Seaworth",
+      "occupation": "He likes onions and shitting himself before a battle",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Night King",
+      "occupation": "Similar to Toby from the office",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Lord Varys",
+      "occupation": "Eunich",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Brienne of Tarth",
+      "occupation": "Ser Brienne to you",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Tormund Giantsbane",
+      "occupation": "Fucked a bear",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Gendry",
+      "occupation": "Last Baratheon",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Jorah Mormont",
+      "occupation": "Dragonscale, what dragonscale!?",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "The Hound",
+      "occupation": "Just a big softy",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Bronn",
+      "occupation": "Just wants a castle and a wife",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    },
+    {
+      "name": "Beric Dondarian",
+      "occupation": "Definitely also going to die",
+      "isDumped": false,
+      "imageUrl": "",
+      "selectedBy": ""
+    }
+  ]
+}
