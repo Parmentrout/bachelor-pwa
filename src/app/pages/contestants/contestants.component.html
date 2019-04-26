@@ -10,7 +10,7 @@
 
       <div *ngFor="let contestant of contestants" class="gimme-space-top">
         <ng-container *ngIf="showEliminatedContestants || !contestant.isDumped">
-          <h4>{{ contestant.name }} <span class="red-text" *ngIf="contestant.isDumped"> - Eliminated!</span></h4>
+          <h4>{{ contestant.name }} <span class="red-text" *ngIf="contestant.isDumped"> - D.E.D Dead!</span></h4>
           <div>{{ contestant.occupation }}</div>
           <button class="contestant-button" (click)="toggleContestant(contestant)">
             <img

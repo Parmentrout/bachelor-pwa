@@ -55,161 +55,175 @@
       "name": "John Snow",
       "occupation": "Moody",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://i1.wp.com/areomagazine.com/wp-content/uploads/2017/07/Jon-Snow.jpg?fit=1278%2C719&ssl=1",
       "selectedBy": ""
     },
     {
       "name": "Daenerys Targaryen",
       "occupation": "Hot-headed and impulsive",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/daenerys-targaryen-meme-1556127294.png",
       "selectedBy": ""
     },
     {
       "name": "Tyrion Lannister",
       "occupation": "Drunk",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "http://assets.viewers-guide.hbo.com/small59944e8fe5822@2x.jpg",
       "selectedBy": ""
     },
     {
       "name": "Jaime Lannister",
       "occupation": "One armed man",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/26/10/game-of-thrones-jaime-lannister.jpg",
       "selectedBy": ""
     },
     {
       "name": "Cersei Lannister",
       "occupation": "Drunk and mean",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Cersei_Lannister-Lena_Headey.jpg/220px-Cersei_Lannister-Lena_Headey.jpg",
       "selectedBy": ""
     },
     {
       "name": "Samwell Tarly",
       "occupation": "What's not to love!?",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Samwell_Tarly-John_Bradley.jpg/220px-Samwell_Tarly-John_Bradley.jpg",
       "selectedBy": ""
     },
     {
       "name": "Arya Stark",
       "occupation": "I'm gonna be a wreck if she dies",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/04/SEI_59793697-e1555334390108.jpg?quality=90&strip=all&zoom=1&resize=540%2C338&ssl=1",
       "selectedBy": ""
     },
     {
       "name": "Sansa Stark",
       "occupation": "Smarter than Tyrion",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://usatftw.files.wordpress.com/2019/04/ca2a94244c8a0225680caffdf38ae534edbd1de5117bc03f0062080b3238eb57-e1555332445147.jpeg?w=1000&h=600&crop=1",
       "selectedBy": ""
     },
     {
       "name": "Bran Stark",
       "occupation": "One eyed raven",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://www.thewrap.com/wp-content/uploads/2019/04/game-of-thrones-bran-stark-jaime-lannister-how-do-you-know-there-is-an-afterwards.jpg",
       "selectedBy": ""
     },
     {
       "name": "Theon Greyjoy",
       "occupation": "Definitely gonna die",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://static.tvtropes.org/pmwiki/pub/images/theon_greyjoy_s7.png",
       "selectedBy": ""
     },
     {
       "name": "Ghost",
       "occupation": "A good boy",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jon-snow-ghost-game-of-thrones-season-8-1555508073.jpg?crop=0.497xw:0.993xh;0.503xw,0&resize=480:*",
       "selectedBy": ""
     },
     {
       "name": "Drogon",
       "occupation": "Not an ice dragon",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/8/8f/DrogonWinterfell8x01.PNG/revision/latest?cb=20190415042156",
       "selectedBy": ""
     },
     {
       "name": "Rhaegal",
       "occupation": "Not an ice dragon",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "http://beta.ems.ladbiblegroup.com/s3/content/808x455/1183f9315cb4f7de592857f6270295b5.png",
       "selectedBy": ""
     },
     {
       "name": "Davos Seaworth",
       "occupation": "He likes onions and shitting himself before a battle",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/davos-seaworth-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
       "selectedBy": ""
     },
     {
       "name": "Night King",
       "occupation": "Similar to Toby from the office",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F974381%252F006f10e8-b204-4e8b-93a2-159fee8747c8.jpg%252F950x534__filters%253Aquality%252890%2529.jpg?signature=-h05FkXLUXSHydMRn2cmrXDCIPc=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com",
       "selectedBy": ""
     },
     {
       "name": "Lord Varys",
       "occupation": "Eunich",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.hellogiggles.com%2Fuploads%2F2016%2F07%2F29034202%2Fvarys.jpg&w=450&c=sc&poi=face&q=85",
       "selectedBy": ""
     },
     {
       "name": "Brienne of Tarth",
       "occupation": "Ser Brienne to you",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/brienne-of-tarth-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
       "selectedBy": ""
     },
     {
       "name": "Tormund Giantsbane",
       "occupation": "Fucked a bear",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2019/04/tormund-1_copy.jpg",
       "selectedBy": ""
     },
     {
       "name": "Gendry",
       "occupation": "Last Baratheon",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/gendry-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
       "selectedBy": ""
     },
     {
       "name": "Jorah Mormont",
       "occupation": "Dragonscale, what dragonscale!?",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/jorah-mormont-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
       "selectedBy": ""
     },
     {
       "name": "The Hound",
       "occupation": "Just a big softy",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://img1.looper.com/img/gallery/why-the-hound-is-even-more-important-to-game-of-thrones-than-we-realized/intro-1550632823.jpg",
       "selectedBy": ""
     },
     {
       "name": "Bronn",
       "occupation": "Just wants a castle and a wife",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "data:image/jpeg;base64,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",
       "selectedBy": ""
     },
     {
       "name": "Beric Dondarian",
       "occupation": "Definitely also going to die",
       "isDumped": false,
-      "imageUrl": "",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2017/6/13/6a8ff6dd-8852-4c75-a8d7-d5b7f33625b4-072533c64db810afd692667ca32af9fbb4fa9a81030be36eaadcece2035bb0c5dffce160d40f71d394efd09782e857c9.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+      "selectedBy": ""
+    },
+    {
+      "name": "Pondric",
+      "occupation": "The man, the myth the legend",
+      "isDumped": false,
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-podrick-1555915033.jpg?crop=1.00xw:0.501xh;0,0.0732xh&resize=1200:*",
+      "selectedBy": ""
+    },
+    {
+      "name": "The Mountain",
+      "occupation": "The man, the myth the legend",
+      "isDumped": false,
+      "imageUrl": "https://filmschoolrejects.com/wp-content/uploads/2017/08/got-the-mountain.jpg",
       "selectedBy": ""
     }
   ]
