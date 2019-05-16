@@ -13,7 +13,7 @@ import { SnackBarListenerService } from './snackbar.service';
 export class AppComponent implements AfterViewInit {
 
   public hasUpdates: boolean = false;
-
+// https://www.instyle.com/reviews-coverage/bachelorette-season-15-contestants-premiere
   private readonly vapidKey = "BN_IR7AHynzjzbh3nR3-yQFgnMjHRfndMDrXDFXLZAAWPCT1tMPdVcrL4RRSodK37CMT6gbaYjU8LQ0ExQL6oTM";
 
   constructor(private swUpdate: SwUpdate, private swPush: SwPush) {

@@ -48,134 +48,141 @@
             "nextBach": "Colton",
             "pickedWinner": "Amber",
             "pickedBach": "Patrick"
+        },
+        {
+            "season": "Colton",
+            "winner": "Cassie",
+            "nextBach": "Hannah B",
+            "pickedWinner": "Amber",
+            "pickedBach": "Patrick"
         }
     ],
     "contestants": [
         {
-            "name": "Kerpa",
-            "occupation": "Dental Hygienist",
-            "isDumped": false,
-            "imageUrl": "https://media.glamour.com/photos/5c0991027ffbfd666e00f2b4/master/w_400,c_limit/150167_0054.jpg",
-            "selectedBy": ""
-        },
-        {
-            "name": "Caelynn",
-            "occupation": "Miss North Carolina 2018",
+            "name": "Brian",
+            "occupation": "Math Teacher",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09910d53eade2d5f6c4d91/master/w_400,c_limit/150167_0085c1.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-11.jpg?itok=ql7Gsglw"
         },
         {
-            "name": "Onyeka",
-            "occupation": "IT Risk Consultant",
+            "name": "Cam",
+            "occupation": "Software Sales",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09911d7b7c4c2d6cf30745/master/w_400,c_limit/150167_0214.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-28.jpg?itok=sRK8IsqZ"
         },
         {
-            "name": "Demi",
-            "occupation": "Interior Designed",
+            "name": "Chasen",
+            "occupation": "Pilot",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09911652bd185ffa1a48be/master/w_400,c_limit/150167_0176.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-03.jpg?itok=jhBABRtw"
         },
         {
-            "name": "Tracy",
-            "occupation": "Wardrobe Specialist",
+            "name": "Connor J",
+            "occupation": "Sales Manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c099124ef620b2d572bbf97/master/w_400,c_limit/150167_0303.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-19.jpg?itok=kvYCopxn"
         },
         {
-            "name": "Catherine",
-            "occupation": "DJ",
+            "name": "Connor S",
+            "occupation": "Investment Analyst",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09912cef620b2d572bbf99/master/w_400,c_limit/150167_0485.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-25.jpg?itok=Ex1lZMZM"
         },
         {
-            "name": "Taysha",
-            "occupation": "Phlebotonist",
+            "name": "Daron",
+            "occupation": "IT Consultant",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c0991249cecff2dd7e827fc/master/w_400,c_limit/150167_0386.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-07.jpg?itok=sOEuE-7C"
         },
         {
-            "name": "Bri",
-            "occupation": "Model",
+            "name": "Devin",
+            "occupation": "Talent Manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c0991437b7c4c2d6cf30747/master/w_400,c_limit/150167_0588.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-04.jpg?itok=qjGGaSE6"
         },
         {
-            "name": "Adrianne (Jane)",
-            "occupation": "Social Worker",
+            "name": "Dustin",
+            "occupation": "Real Estate Broker",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09914a52bd185ffa1a48c0/master/w_400,c_limit/150167_0584.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-17.jpg?itok=2qYl39De"
         },
         {
-            "name": "Nina",
-            "occupation": "Sales Account Manager",
+            "name": "Dylan",
+            "occupation": "Tech Entrepenuer",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09914b7b7c4c2d6cf30749/master/w_400,c_limit/150167_0680.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-26.jpg?itok=YEURlEch"
         },
         {
-            "name": "Courtney",
-            "occupation": "Caterer",
+            "name": "Garrett",
+            "occupation": "Golf Pro",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09915bf3923e2d3a4e422f/master/w_400,c_limit/150167_0785.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-01.jpg?itok=9aMC3nke"
         },
         {
-            "name": "Caitlin",
-            "occupation": "Realtor",
+            "name": "Grant",
+            "occupation": "Unemployed",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c0991587ffbfd666e00f2b6/master/w_400,c_limit/150167_0746.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-06.jpg?itok=7KLh5fNa"
         },
         {
-            "name": "Alex D",
-            "occupation": "Sloth",
+            "name": "Hunter",
+            "occupation": "Pro Surfer",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09916853eade2d5f6c4d93/master/w_400,c_limit/150167_0941.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-29.jpg?itok=ma8NIkhu"
         },
         {
-            "name": "Katie",
-            "occupation": "Medical Sales Representative",
+            "name": "Jed",
+            "occupation": "Singer / Songwriter",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c0991689cecff2dd7e827fe/master/w_400,c_limit/150167_1005.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-08.jpg?itok=GxHA3tYh"
         },
         {
-            "name": "Elyse",
-            "occupation": "Makeup Artist",
+            "name": "Joe",
+            "occupation": "The Box King (works for his family’s cardboard box business)",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c099169ef620b2d572bbf9b/master/w_400,c_limit/150167_0872.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-12.jpg?itok=-ARBdqDk"
         },
         {
-            "name": "Heather",
-            "occupation": "Never been kissed",
+            "name": "Joey",
+            "occupation": "Finance Manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c09917cbc372d2d883746d1/master/w_400,c_limit/150167_1148.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-10.jpg?itok=e76tEfQW"
         },
         {
-            "name": "Sydney",
-            "occupation": "NBA Dancer",
+            "name": "John Paul Jones",
+            "occupation": "John Paul Jones",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c0991719cecff2dd7e82800/master/w_400,c_limit/150167_1047.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-13.jpg?itok=eUjKhEqv"
         },
         {
-            "name": "Erika",
-            "occupation": "Recruiter",
+            "name": "Johnathon",
+            "occupation": "Server",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://media.glamour.com/photos/5c099182f9a6372d57fdbc0a/master/w_400,c_limit/150167_1241.jpg"
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-14.jpg?itok=gdo96cQS"
+        },
+        {
+            "name": "Kevin",
+            "occupation": "Behavioral Health Specialist",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-05.jpg?itok=h8ARDV9m"
         },
         {
             "name": "Annie",
