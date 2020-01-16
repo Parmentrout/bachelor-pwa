@@ -55,218 +55,232 @@
             "nextBach": "Hannah B",
             "pickedWinner": "Amber",
             "pickedBach": "Patrick"
+        },
+        {
+            "season": "Hannah B",
+            "winner": "No one",
+            "nextBach": "Pilot Peter",
+            "pickedWinner": "",
+            "pickedBach": "Amber"
         }
     ],
     "contestants": [
         {
-            "name": "Brian",
-            "occupation": "Math Teacher",
+            "name": "Alayah B",
+            "occupation": "Miss Texas 2019",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-11.jpg?itok=ql7Gsglw"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/71371168-10156433434963053-6580761573969625088-o-1568734057.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Cam",
-            "occupation": "Software Sales",
+            "name": "Alexa C",
+            "occupation": "Estetician",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-28.jpg?itok=sRK8IsqZ"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/alexac-1568734140.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Chasen",
-            "occupation": "Pilot",
-            "isDumped": false,
+            "name": "Avonlea E.",
+            "occupation": "Cattle rancher",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-03.jpg?itok=jhBABRtw"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/avonlea-e-1568735455.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Connor J",
-            "occupation": "Sales Manager",
+            "name": "Courtney P",
+            "occupation": "Cosmetologist",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-19.jpg?itok=kvYCopxn"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/courntey-p-1568735539.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Connor S",
-            "occupation": "Investment Analyst",
+            "name": "Deandra K.",
+            "occupation": "Home-care coordinator",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-25.jpg?itok=Ex1lZMZM"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/deandra-1568736150.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Daron",
-            "occupation": "IT Consultant",
-            "isDumped": false,
+            "name": "Eunice C.",
+            "occupation": "Flight attendant",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-07.jpg?itok=sOEuE-7C"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/eunice-1568736288.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Devin",
-            "occupation": "Talent Manager",
+            "name": "Hannah Ann",
+            "occupation": "Model",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-04.jpg?itok=qjGGaSE6"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hannah-ann-s-1568736356.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Dustin",
-            "occupation": "Real Estate Broker",
-            "isDumped": false,
+            "name": "Jade M",
+            "occupation": "Flight attendant",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-17.jpg?itok=2qYl39De"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jade-1568736535.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Dylan",
-            "occupation": "Tech Entrepenuer",
+            "name": "Jasmine N.",
+            "occupation": "Client relations manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-26.jpg?itok=YEURlEch"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jasmine-1568736824.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Garrett",
-            "occupation": "Golf Pro",
-            "isDumped": false,
+            "name": "Jenna S.",
+            "occupation": "Nursing student",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-01.jpg?itok=9aMC3nke"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jenna-s-1568736861.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Grant",
-            "occupation": "Unemployed",
-            "isDumped": false,
+            "name": "Katrina B.",
+            "occupation": "Professional sports dancer",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-06.jpg?itok=7KLh5fNa"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/katrina-b-1568736905.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Hunter",
-            "occupation": "Pro Surfer",
+            "name": "Kelley F.",
+            "occupation": "Attorney",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-29.jpg?itok=ma8NIkhu"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/70174463-10156433434393053-6950892002883928064-o-1568736954.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Jed",
-            "occupation": "Singer / Songwriter",
+            "name": "Kelsey W.",
+            "occupation": "#champagnegate2020",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-08.jpg?itok=GxHA3tYh"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kelsey-1568737004.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Joe",
-            "occupation": "The Box King (works for his family’s cardboard box business)",
+            "name": "Kiarra",
+            "occupation": "Nanny",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-12.jpg?itok=-ARBdqDk"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kiarra-n-1568737700.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Joey",
-            "occupation": "Finance Manager",
-            "isDumped": false,
+            "name": "Kylie",
+            "occupation": "Entertainment sales associate",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-10.jpg?itok=e76tEfQW"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kylie-1568737761.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "John Paul Jones",
-            "occupation": "John Paul Jones",
+            "name": "Lauren",
+            "occupation": "Marketing executive",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-13.jpg?itok=eUjKhEqv"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lauren-j-1568737816.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Johnathon",
-            "occupation": "Server",
+            "name": "Lexi",
+            "occupation": "Marketing coordinator",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-14.jpg?itok=gdo96cQS"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lexi-b-1568737893.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Kevin",
-            "occupation": "Behavioral Health Specialist",
+            "name": "Madison P",
+            "occupation": "Foster parent recruiter",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-05.jpg?itok=h8ARDV9m"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/madison-p-1568737933.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Luke P",
-            "occupation": "Import / Export manager",
-            "isDumped": false,
+            "name": "Maurissa",
+            "occupation": "Patient-care coordinator",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-27.jpg?itok=g_R4YJvn"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/maurissa-1568737974.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Luke S",
-            "occupation": "Political Consultant",
-            "isDumped": false,
+            "name": "Megan",
+            "occupation": "Flight attendant",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-16.jpg?itok=buyWG14p"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/megan-h-1568738016.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Matt Donald",
-            "occupation": "Medical Device Salesman",
+            "name": "Mykenna",
+            "occupation": "Fashion blogger",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-18.jpg?itok=-XmKzLRr"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mykenna-d-1568738259.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Matteo",
-            "occupation": "Management Consultant",
+            "name": "Natasha",
+            "occupation": "Event planner",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-23.jpg?itok=vTaQfjFg"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/natasha-1568738302.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Matthew",
-            "occupation": "Car Bid Spotter",
-            "isDumped": false,
+            "name": "Payton",
+            "occupation": "Business development representative",
+            "isDumped": true,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557759515/051319-bachelorette-contestants-embed-02.jpg?itok=uTU5rUEa"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/payton-m-1568738389.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Mike",
-            "occupation": "Portfolio Management",
+            "name": "Sarah",
+            "occupation": "Medical radiographer",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-30.jpg?itok=bhEV2tBF"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sarah-c-knoxville-1568738453.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Peter",
-            "occupation": "Pilot",
+            "name": "Savannah",
+            "occupation": "Realtor",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-09.jpg?itok=UPo_tzZx"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/savanah-1568738552.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Ryan",
-            "occupation": "Roller Boy",
+            "name": "Shiann",
+            "occupation": "Administrative assistant",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760498/051319-bachelorette-contestants-embed-13.jpg?itok=eUjKhEqv"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shiann-l-1568738632.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Scott",
-            "occupation": "Software Sales Executive",
+            "name": "Sydney",
+            "occupation": "Retail marketing manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-21.jpg?itok=aQAHeZDI"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sydney-h-1568738787.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Thomas",
-            "occupation": "Pro Basketball Player",
+            "name": "Tammy",
+            "occupation": "House flipper",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-22.jpg?itok=rQkVFwbV"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tammy-l-1568738825.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Tyler C",
-            "occupation": "General Contractor / Dancer",
+            "name": "Victoria F",
+            "occupation": "Meak and shy medical sales representative",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-20.jpg?itok=oUVTKoWM"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/victoria-f-1568738865.jpg?crop=1xw:1xh;center,top&resize=768:*"
         },
         {
-            "name": "Tyler G",
-            "occupation": "Psychology major",
+            "name": "Victoria P",
+            "occupation": "Nurse",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/1557760799/051319-bachelorette-contestants-embed-24.jpg?itok=kfGn8-Tm"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/victoria-p-1568738905.jpg?crop=1xw:1xh;center,top&resize=768:*"
+        },
+        {
+            "name": "Hannah Beast",
+            "occupation": "Ghost of Girlfriends Past",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://www.lifeandstylemag.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-05-at-12.51.25-PM.png?resize=630%2C354"
         }
     ]
 }
