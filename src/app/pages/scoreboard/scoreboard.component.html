@@ -3,6 +3,14 @@
     <h1>The Scoreboard!</h1>
     <p><i>"There can only be one"</i> - Highlander</p>
     <hr>
+    <div class="gimme-space-top">
+      Overall Winner Score: <br>
+      <b>Patrick - {{patrickWinnerScore}}</b>, <b>Amber - {{amberWinnerScore}}</b>
+      <br><br>
+      Overall Next Bachelor Score: <br>
+      <b>Patrick - {{patrickBachScore}}</b>, <b>Amber - {{amberBachScore}}</b>
+    </div>
+    <hr>
     <div class="gimme-space-top" *ngFor="let season of seasons$ | async">
       <h4>Bachelor - {{season.season}}</h4>
       <p>Winner - {{season.winner}}</p>
