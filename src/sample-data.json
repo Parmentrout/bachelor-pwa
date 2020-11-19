@@ -62,225 +62,155 @@
             "nextBach": "Pilot Peter",
             "pickedWinner": "",
             "pickedBach": "Amber"
+        },
+        {
+            "season": "Pilot Peter",
+            "winner": "Both?",
+            "nextBach": "Clare / Tayshia",
+            "pickedWinner": "Patrick / TBD",
+            "pickedBach": ""
         }
     ],
     "contestants": [
         {
-            "name": "Alayah B",
-            "occupation": "Miss Texas 2019",
+            "name": "Ben",
+            "occupation": "Army Vet",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/71371168-10156433434963053-6580761573969625088-o-1568734057.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ben-29-indianapolis-in-1594825927.jpg?crop=0.776xw:0.776xh;0.224xw,0.0976xh&resize=980:*"
         },
         {
-            "name": "Alexa C",
-            "occupation": "Estetician",
+            "name": "Bennet",
+            "occupation": "Harvard",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/alexac-1568734140.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bennett-37-atlanta-ga-1594826297.jpg?crop=0.8312980551786522xw:1xh;center,top&resize=980:*"
         },
         {
-            "name": "Avonlea E.",
-            "occupation": "Cattle rancher",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/avonlea-e-1568735455.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Courtney P",
-            "occupation": "Cosmetologist",
+            "name": "Blake",
+            "occupation": "Canadian",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/courntey-p-1568735539.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blake-moynes-29-burlington-on-canada-1594821658.jpg?crop=0.859xw:0.860xh;0.0918xw,0.0647xh&resize=980:*"
         },
         {
-            "name": "Deandra K.",
-            "occupation": "Home-care coordinator",
+            "name": "Brendan",
+            "occupation": "Artist",
+            "isDumped": false,
+            "selectedBy": "Patrick",
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/brendan-30-milford-ma-1594827400.jpg?crop=0.9988304093567252xw:1xh;center,top&resize=980:*"
+        },
+        {
+            "name": "Chasen",
+            "occupation": "Tech Consultant",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/deandra-1568736150.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chasen-31-walnut-creek-ca-1594827604.jpg?crop=0.961xw:0.961xh;0.0391xw,0.0386xh&resize=980:*"
         },
         {
-            "name": "Eunice C.",
-            "occupation": "Flight attendant",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/eunice-1568736288.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Hannah Ann",
-            "occupation": "Model",
+            "name": "Demar",
+            "occupation": "Spin Instructor",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hannah-ann-s-1568736356.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/demar-26-san-diego-ca-1594822402.jpg?crop=0.830xw:0.934xh;0.167xw,0.0663xh&resize=980:*"
         },
         {
-            "name": "Jade M",
-            "occupation": "Flight attendant",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jade-1568736535.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Jasmine N.",
-            "occupation": "Client relations manager",
+            "name": "Eazy",
+            "occupation": "Football!",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jasmine-1568736824.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/uzoma-29-dallas-tx-1594830295.jpg?crop=0.415xw:0.502xh;0.282xw,0.243xh&resize=980:*"
         },
         {
-            "name": "Jenna S.",
-            "occupation": "Nursing student",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jenna-s-1568736861.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Katrina B.",
-            "occupation": "Professional sports dancer",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/katrina-b-1568736905.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Kelley F.",
-            "occupation": "Attorney",
+            "name": "Ed",
+            "occupation": "Account Executive",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/70174463-10156433434393053-6950892002883928064-o-1568736954.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ed-36-pittsburgh-pa-1594822527.jpg?crop=0.747xw:0.839xh;0.179xw,0.117xh&resize=980:*"
         },
         {
-            "name": "Kelsey W.",
-            "occupation": "#champagnegate2020",
+            "name": "Ivan",
+            "occupation": "Aerospace Engineer",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kelsey-1568737004.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ivan-28-dallas-tx-1594822895.jpg?crop=0.867xw:0.868xh;0.133xw,0.132xh&resize=980:*"
         },
         {
-            "name": "Kiarra",
-            "occupation": "Nanny",
+            "name": "Jason",
+            "occupation": "Football!",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kiarra-n-1568737700.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jason-31-rutland-vt-1594828265.jpg?crop=0.879xw:0.881xh;0.105xw,0.0863xh&resize=980:*"
         },
         {
-            "name": "Kylie",
-            "occupation": "Entertainment sales associate",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kylie-1568737761.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Lauren",
-            "occupation": "Marketing executive",
+            "name": "Jay",
+            "occupation": "Pennsylvanian",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lauren-j-1568737816.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jay-29-langhorne-pa-1594823008.jpg?crop=0.815xw:0.982xh;0.0952xw,0&resize=980:*"
         },
         {
-            "name": "Lexi",
-            "occupation": "Marketing coordinator",
+            "name": "Joe",
+            "occupation": "Doctor",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lexi-b-1568737893.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/joe-36-north-woodmere-ny-1594828543.jpg?crop=0.866xw:0.911xh;0.112xw,0.0751xh&resize=980:*"
         },
         {
-            "name": "Madison P",
-            "occupation": "Foster parent recruiter",
+            "name": "Kenny",
+            "occupation": "Boy Band Manager",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/madison-p-1568737933.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kenny-39-oaklawn-il-1594828954.jpg?crop=0.862xw:0.972xh;0.0833xw,0.0281xh&resize=980:*"
         },
         {
-            "name": "Maurissa",
-            "occupation": "Patient-care coordinator",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/maurissa-1568737974.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Megan",
-            "occupation": "Flight attendant",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/megan-h-1568738016.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Mykenna",
-            "occupation": "Fashion blogger",
+            "name": "Montel",
+            "occupation": "Fitness Trainer",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mykenna-d-1568738259.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/montel-30-hingham-ma-1594829142.jpg?crop=0.650xw:0.731xh;0.350xw,0.151xh&resize=980:*"
         },
         {
-            "name": "Natasha",
-            "occupation": "Event planner",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/natasha-1568738302.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Payton",
-            "occupation": "Business development representative",
-            "isDumped": true,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/payton-m-1568738389.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Sarah",
-            "occupation": "Medical radiographer",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sarah-c-knoxville-1568738453.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Savannah",
-            "occupation": "Realtor",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/savanah-1568738552.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Shiann",
-            "occupation": "Administrative assistant",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shiann-l-1568738632.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Sydney",
-            "occupation": "Retail marketing manager",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sydney-h-1568738787.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Tammy",
-            "occupation": "House flipper",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tammy-l-1568738825.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Victoria F",
-            "occupation": "Meak and shy medical sales representative",
-            "isDumped": false,
-            "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/victoria-f-1568738865.jpg?crop=1xw:1xh;center,top&resize=768:*"
-        },
-        {
-            "name": "Victoria P",
+            "name": "Noah",
             "occupation": "Nurse",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/victoria-p-1568738905.jpg?crop=1xw:1xh;center,top&resize=768:*"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/noah-25-tulsa-ok-1594823717.jpg?crop=0.776xw:0.776xh;0.0731xw,0.178xh&resize=980:*"
         },
         {
-            "name": "Hannah Beast",
-            "occupation": "Ghost of Girlfriends Past",
+            "name": "Peter",
+            "occupation": "Real Estate Agent",
             "isDumped": false,
             "selectedBy": "",
-            "imageUrl": "https://www.lifeandstylemag.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-05-at-12.51.25-PM.png?resize=630%2C354"
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/peter-32-everett-ma-1594829497.jpg?crop=0.796xw:0.797xh;0.124xw,0.115xh&resize=980:*"
+        },
+        {
+            "name": "Riley",
+            "occupation": "Lawyer",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/riley-30-detroit-mi-1594829694.jpg?crop=0.733xw:0.823xh;0.122xw,0.177xh&resize=980:*"
+        },
+        {
+            "name": "Spencer",
+            "occupation": "Villian?",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spencer-30-la-jolla-ca-1594829867.jpg?crop=0.896xw:0.898xh;0,0.0125xh&resize=980:*"
+        },
+        {
+            "name": "Tyler",
+            "occupation": "Lawyer",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tyler-c-27-gassaway-wv-1594824871.jpg?crop=0.781xw:0.782xh;0.124xw,0.115xh&resize=980:*"
+        },
+        {
+            "name": "Zac",
+            "occupation": "Who Knows",
+            "isDumped": false,
+            "selectedBy": "",
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/zac-c-36-haddonfield-pa-1594830463.jpg?crop=0.638xw:0.639xh;0.134xw,0.148xh&resize=980:*"
         }
     ]
 }
